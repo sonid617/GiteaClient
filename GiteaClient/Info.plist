@@ -31,10 +31,14 @@
     </array>
     <key>UIRequiresFullScreen</key>
     <true/>
+    <!-- Required: users may run Gitea over plain HTTP on a self-hosted server.
+         NSAllowsArbitraryLoadsInWebContent is explicitly disabled to keep WKWebView restricted. -->
     <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>
         <true/>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <false/>
     </dict>
 </dict>
 </plist>
