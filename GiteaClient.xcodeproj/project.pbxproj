@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005548F7B7F1F1C1DC0730E2 /* GiteaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3AC129C8D10B05B3FCFEA /* GiteaContent.swift */; };
+		0680F9104AA1645E77B30ED5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78431E18179324240A41F4E /* AuthViewModel.swift */; };
+		0BE0EA1702DE70F0FBFDD7A0 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DCC110DA93248FBC882B2E /* DesignSystem.swift */; };
+		0F130A2B3D6E67EF993AD079 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950DC12971B94B115C69CC6 /* LoginView.swift */; };
+		0F81B6D1A58CFEC16C36BE63 /* MarkdownTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1040E15593C2997E55F1E /* MarkdownTextView.swift */; };
+		108A77DD2DC67EA5DE4EC784 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5586D941F45AD3999808EC /* ProfileView.swift */; };
+		1398D08F95815126CE7AB213 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469C7630F40DAEAFB726BA87 /* ErrorView.swift */; };
+		17496DAEFDAFACE616DE3F46 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532E1344C9A84DC366D7CD9 /* KeychainHelper.swift */; };
+		243076D7FF9FDEF648897D59 /* FileExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D72C259532F3AC3BD99C1 /* FileExplorerView.swift */; };
+		2B5BD143274BA80624996DE0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC02513AE95419285FF23C /* MainTabView.swift */; };
+		36C694C336D86297EC3447A2 /* AsyncAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE0213AC9F5E1FAAA32652 /* AsyncAvatarView.swift */; };
+		380C4FC3B1A01D15956C397D /* GiteaCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72723A7CE13D3CEFEF156B23 /* GiteaCommit.swift */; };
+		38B2E2237EF95EB04D90C718 /* GiteaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F5B5E80601081911D0E6B /* GiteaAPIClient.swift */; };
+		396AA769792F05A2693B95EC /* RepositoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC537BAB77D63173B7C3808D /* RepositoryDetailView.swift */; };
+		52E83F1142B7A176D4E4AC75 /* IssueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FA12012265B72ABE5E837 /* IssueListView.swift */; };
+		5FBF6E521522C5377A9A4323 /* LabelBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25E67881B254EA7738766B9 /* LabelBadgeView.swift */; };
+		6D552E6309D55673C69C1659 /* GiteaNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F22C8C43499890C9507C2D /* GiteaNotification.swift */; };
+		6EB238194E45C4FAD0A1A46E /* RepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E863C8148DEA984E07D9B /* RepositoryListView.swift */; };
+		742A17D5641BF50C6313861F /* PullRequestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD551F1CADC25D8F8C91D9 /* PullRequestDetailView.swift */; };
+		753D5B7E3F7EA03EFC22A2D4 /* IssueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD782AD34ACC4576C1629F27 /* IssueDetailView.swift */; };
+		762EC64157D3455852D3152B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90C71C816A34BABBEE64E65 /* Assets.xcassets */; };
+		8CF8B8F498C5D8B01C4C8058 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE5FEC142B265078A6998C4 /* AppState.swift */; };
+		8DE71C8294931A200CE5A4FB /* GiteaRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E8845F7DBC490283E56BD /* GiteaRelease.swift */; };
+		8ECE3058AE3F05581F56B8CF /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4216F1A44E6D678F4B092A9 /* NotificationsViewModel.swift */; };
+		91227EF12068E051BA193380 /* ServerURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A81D6FE4066DD07D2D6F26 /* ServerURLView.swift */; };
+		92303953D8F7EF5A7D842DF5 /* PullRequestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F1CE4B3BB30C78240C68C /* PullRequestListView.swift */; };
+		9AA512A50551894602F84954 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5102F68061AA740371C118D8 /* ExploreView.swift */; };
+		9D63F7E46213258C3AF5B1D4 /* GiteaClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2AA00012B9D9A9F207B14 /* GiteaClientApp.swift */; };
+		A08D10A07BD08B8800A5EAD4 /* RepoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE30922540AEA219E935B59 /* RepoRowView.swift */; };
+		A3DC89BE437FAF333A3B1103 /* IssueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2609D8F45319F1583591FF5 /* IssueViewModel.swift */; };
+		A42E6C07D9CC53034ACD2B12 /* ReadmeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE65C2A78A4EBD6579BBEF7 /* ReadmeView.swift */; };
+		AA3B89D303A74753073AE6E3 /* GiteaIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4033A4FC2E829A3D6635EDED /* GiteaIssue.swift */; };
+		AC17D1702E44FA0CC435140F /* GiteaBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCAD563B5CADFE60FE0F14 /* GiteaBranch.swift */; };
+		AC4E9EA0085B3EF80A4B26FA /* RepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D699E7666A8788920524DE /* RepositoryViewModel.swift */; };
+		AEB85EA778D307107E65DB57 /* GiteaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6EA3F810899C8503300FB /* GiteaUser.swift */; };
+		C4DD521EBE8D6F4957FE5294 /* FileContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B9F8CC00395ED1069A080 /* FileContentView.swift */; };
+		CB6AC9A075F5ACB33BA66AD2 /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC691903F4DACC1ED1A5F23 /* FilterChip.swift */; };
+		CD1441BF9B47791DB39E7D9E /* GiteaPullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F391FB150BC1B233BDF64D2 /* GiteaPullRequest.swift */; };
+		D41F67ACEDA31FF34263598A /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA2A84930B1CFC6EBD6A41 /* NotificationsView.swift */; };
+		D5CCEF8A609BBB3136AD515F /* ReleasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B310878E0B542306541B4671 /* ReleasesView.swift */; };
+		E49D666CA784356AE1006C04 /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672164FFF99D5C58659B4D6 /* AppHeader.swift */; };
+		FA1F624B956501362198833E /* GiteaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03764B6CE888EED43DDE3487 /* GiteaRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03764B6CE888EED43DDE3487 /* GiteaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaRepository.swift; sourceTree = "<group>"; };
+		0DF6EA3F810899C8503300FB /* GiteaUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaUser.swift; sourceTree = "<group>"; };
+		12BC02513AE95419285FF23C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1A5586D941F45AD3999808EC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		203F5B5E80601081911D0E6B /* GiteaAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaAPIClient.swift; sourceTree = "<group>"; };
+		21DCC110DA93248FBC882B2E /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		27CD551F1CADC25D8F8C91D9 /* PullRequestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestDetailView.swift; sourceTree = "<group>"; };
+		296FA12012265B72ABE5E837 /* IssueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueListView.swift; sourceTree = "<group>"; };
+		2EE65C2A78A4EBD6579BBEF7 /* ReadmeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmeView.swift; sourceTree = "<group>"; };
+		36EE0213AC9F5E1FAAA32652 /* AsyncAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAvatarView.swift; sourceTree = "<group>"; };
+		39D699E7666A8788920524DE /* RepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewModel.swift; sourceTree = "<group>"; };
+		3B7E8845F7DBC490283E56BD /* GiteaRelease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaRelease.swift; sourceTree = "<group>"; };
+		4033A4FC2E829A3D6635EDED /* GiteaIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaIssue.swift; sourceTree = "<group>"; };
+		469C7630F40DAEAFB726BA87 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		4CBCAD563B5CADFE60FE0F14 /* GiteaBranch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaBranch.swift; sourceTree = "<group>"; };
+		4F391FB150BC1B233BDF64D2 /* GiteaPullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaPullRequest.swift; sourceTree = "<group>"; };
+		5102F68061AA740371C118D8 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		51A81D6FE4066DD07D2D6F26 /* ServerURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerURLView.swift; sourceTree = "<group>"; };
+		641AF1BF0C03A1730909C589 /* GiteaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiteaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4E863C8148DEA984E07D9B /* RepositoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListView.swift; sourceTree = "<group>"; };
+		72723A7CE13D3CEFEF156B23 /* GiteaCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaCommit.swift; sourceTree = "<group>"; };
+		7AAA2A84930B1CFC6EBD6A41 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		80F22C8C43499890C9507C2D /* GiteaNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaNotification.swift; sourceTree = "<group>"; };
+		92026A0D4CCD520AD0F0F138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9BA1040E15593C2997E55F1E /* MarkdownTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownTextView.swift; sourceTree = "<group>"; };
+		ACE30922540AEA219E935B59 /* RepoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRowView.swift; sourceTree = "<group>"; };
+		B25E67881B254EA7738766B9 /* LabelBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelBadgeView.swift; sourceTree = "<group>"; };
+		B2609D8F45319F1583591FF5 /* IssueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewModel.swift; sourceTree = "<group>"; };
+		B310878E0B542306541B4671 /* ReleasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasesView.swift; sourceTree = "<group>"; };
+		B4216F1A44E6D678F4B092A9 /* NotificationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
+		B58B9F8CC00395ED1069A080 /* FileContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileContentView.swift; sourceTree = "<group>"; };
+		B950DC12971B94B115C69CC6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BD782AD34ACC4576C1629F27 /* IssueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailView.swift; sourceTree = "<group>"; };
+		C56F1CE4B3BB30C78240C68C /* PullRequestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestListView.swift; sourceTree = "<group>"; };
+		C78431E18179324240A41F4E /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C90C71C816A34BABBEE64E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC537BAB77D63173B7C3808D /* RepositoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailView.swift; sourceTree = "<group>"; };
+		D2E2AA00012B9D9A9F207B14 /* GiteaClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaClientApp.swift; sourceTree = "<group>"; };
+		D532E1344C9A84DC366D7CD9 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		D672164FFF99D5C58659B4D6 /* AppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
+		E8F3AC129C8D10B05B3FCFEA /* GiteaContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiteaContent.swift; sourceTree = "<group>"; };
+		EDE5FEC142B265078A6998C4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FC0D72C259532F3AC3BD99C1 /* FileExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExplorerView.swift; sourceTree = "<group>"; };
+		FFC691903F4DACC1ED1A5F23 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1081AA51B317B191253B76C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C78431E18179324240A41F4E /* AuthViewModel.swift */,
+				B2609D8F45319F1583591FF5 /* IssueViewModel.swift */,
+				B4216F1A44E6D678F4B092A9 /* NotificationsViewModel.swift */,
+				39D699E7666A8788920524DE /* RepositoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		554357BBC96A3522E78D8A59 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				BD782AD34ACC4576C1629F27 /* IssueDetailView.swift */,
+				296FA12012265B72ABE5E837 /* IssueListView.swift */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		58B0599D03F4DFE1FD7EB082 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B950DC12971B94B115C69CC6 /* LoginView.swift */,
+				51A81D6FE4066DD07D2D6F26 /* ServerURLView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		5E1E83F2726D3580EB24AECC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58B0599D03F4DFE1FD7EB082 /* Auth */,
+				D65A0057205831A9403BC0CD /* Components */,
+				D7646D3A0163D1C701AE4BA4 /* Explore */,
+				554357BBC96A3522E78D8A59 /* Issues */,
+				762B92B8AF6AD3744F4D4763 /* Main */,
+				8BE62EC080C3C7EDCCF8A0B3 /* Notifications */,
+				6431803BAA6EBB777884D440 /* Profile */,
+				825E270D49A867004D64EBD4 /* PullRequests */,
+				957ADCDF20518991CFB54617 /* Repositories */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60936340673436B808271003 /* GiteaClient */ = {
+			isa = PBXGroup;
+			children = (
+				C90C71C816A34BABBEE64E65 /* Assets.xcassets */,
+				92026A0D4CCD520AD0F0F138 /* Info.plist */,
+				6BDE86FA99B2697CFE87B470 /* App */,
+				72F02CF3293626E74AB810E4 /* Models */,
+				CEEF10382F38632981D5C262 /* Services */,
+				1081AA51B317B191253B76C9 /* ViewModels */,
+				5E1E83F2726D3580EB24AECC /* Views */,
+			);
+			path = GiteaClient;
+			sourceTree = "<group>";
+		};
+		6431803BAA6EBB777884D440 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1A5586D941F45AD3999808EC /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		685BA5C1A6FA60AB4A269B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641AF1BF0C03A1730909C589 /* GiteaClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDE86FA99B2697CFE87B470 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDE5FEC142B265078A6998C4 /* AppState.swift */,
+				D2E2AA00012B9D9A9F207B14 /* GiteaClientApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72F02CF3293626E74AB810E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCAD563B5CADFE60FE0F14 /* GiteaBranch.swift */,
+				72723A7CE13D3CEFEF156B23 /* GiteaCommit.swift */,
+				E8F3AC129C8D10B05B3FCFEA /* GiteaContent.swift */,
+				4033A4FC2E829A3D6635EDED /* GiteaIssue.swift */,
+				80F22C8C43499890C9507C2D /* GiteaNotification.swift */,
+				4F391FB150BC1B233BDF64D2 /* GiteaPullRequest.swift */,
+				3B7E8845F7DBC490283E56BD /* GiteaRelease.swift */,
+				03764B6CE888EED43DDE3487 /* GiteaRepository.swift */,
+				0DF6EA3F810899C8503300FB /* GiteaUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		762B92B8AF6AD3744F4D4763 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				12BC02513AE95419285FF23C /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		825E270D49A867004D64EBD4 /* PullRequests */ = {
+			isa = PBXGroup;
+			children = (
+				27CD551F1CADC25D8F8C91D9 /* PullRequestDetailView.swift */,
+				C56F1CE4B3BB30C78240C68C /* PullRequestListView.swift */,
+			);
+			path = PullRequests;
+			sourceTree = "<group>";
+		};
+		8BE62EC080C3C7EDCCF8A0B3 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				7AAA2A84930B1CFC6EBD6A41 /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		94B234D068A90733A3C4C338 = {
+			isa = PBXGroup;
+			children = (
+				60936340673436B808271003 /* GiteaClient */,
+				685BA5C1A6FA60AB4A269B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		957ADCDF20518991CFB54617 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B58B9F8CC00395ED1069A080 /* FileContentView.swift */,
+				FC0D72C259532F3AC3BD99C1 /* FileExplorerView.swift */,
+				2EE65C2A78A4EBD6579BBEF7 /* ReadmeView.swift */,
+				B310878E0B542306541B4671 /* ReleasesView.swift */,
+				CC537BAB77D63173B7C3808D /* RepositoryDetailView.swift */,
+				6B4E863C8148DEA984E07D9B /* RepositoryListView.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		CEEF10382F38632981D5C262 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				203F5B5E80601081911D0E6B /* GiteaAPIClient.swift */,
+				D532E1344C9A84DC366D7CD9 /* KeychainHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D65A0057205831A9403BC0CD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D672164FFF99D5C58659B4D6 /* AppHeader.swift */,
+				36EE0213AC9F5E1FAAA32652 /* AsyncAvatarView.swift */,
+				21DCC110DA93248FBC882B2E /* DesignSystem.swift */,
+				469C7630F40DAEAFB726BA87 /* ErrorView.swift */,
+				FFC691903F4DACC1ED1A5F23 /* FilterChip.swift */,
+				B25E67881B254EA7738766B9 /* LabelBadgeView.swift */,
+				9BA1040E15593C2997E55F1E /* MarkdownTextView.swift */,
+				ACE30922540AEA219E935B59 /* RepoRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D7646D3A0163D1C701AE4BA4 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				5102F68061AA740371C118D8 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C5B25D967D41F6AEF2704A9 /* GiteaClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5715BD623917916162D9F26 /* Build configuration list for PBXNativeTarget "GiteaClient" */;
+			buildPhases = (
+				5AB19F3A5EBD22DFFB7391D0 /* Sources */,
+				D087B73206E1602FBE7A9F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiteaClient;
+			packageProductDependencies = (
+			);
+			productName = GiteaClient;
+			productReference = 641AF1BF0C03A1730909C589 /* GiteaClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC8062C326422DEE42A9F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7C5B25D967D41F6AEF2704A9 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0876F895177E9A4576F342DC /* Build configuration list for PBXProject "GiteaClient" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 94B234D068A90733A3C4C338;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 685BA5C1A6FA60AB4A269B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C5B25D967D41F6AEF2704A9 /* GiteaClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D087B73206E1602FBE7A9F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762EC64157D3455852D3152B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AB19F3A5EBD22DFFB7391D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49D666CA784356AE1006C04 /* AppHeader.swift in Sources */,
+				8CF8B8F498C5D8B01C4C8058 /* AppState.swift in Sources */,
+				36C694C336D86297EC3447A2 /* AsyncAvatarView.swift in Sources */,
+				0680F9104AA1645E77B30ED5 /* AuthViewModel.swift in Sources */,
+				0BE0EA1702DE70F0FBFDD7A0 /* DesignSystem.swift in Sources */,
+				1398D08F95815126CE7AB213 /* ErrorView.swift in Sources */,
+				9AA512A50551894602F84954 /* ExploreView.swift in Sources */,
+				C4DD521EBE8D6F4957FE5294 /* FileContentView.swift in Sources */,
+				243076D7FF9FDEF648897D59 /* FileExplorerView.swift in Sources */,
+				CB6AC9A075F5ACB33BA66AD2 /* FilterChip.swift in Sources */,
+				38B2E2237EF95EB04D90C718 /* GiteaAPIClient.swift in Sources */,
+				AC17D1702E44FA0CC435140F /* GiteaBranch.swift in Sources */,
+				9D63F7E46213258C3AF5B1D4 /* GiteaClientApp.swift in Sources */,
+				380C4FC3B1A01D15956C397D /* GiteaCommit.swift in Sources */,
+				005548F7B7F1F1C1DC0730E2 /* GiteaContent.swift in Sources */,
+				AA3B89D303A74753073AE6E3 /* GiteaIssue.swift in Sources */,
+				6D552E6309D55673C69C1659 /* GiteaNotification.swift in Sources */,
+				CD1441BF9B47791DB39E7D9E /* GiteaPullRequest.swift in Sources */,
+				8DE71C8294931A200CE5A4FB /* GiteaRelease.swift in Sources */,
+				FA1F624B956501362198833E /* GiteaRepository.swift in Sources */,
+				AEB85EA778D307107E65DB57 /* GiteaUser.swift in Sources */,
+				753D5B7E3F7EA03EFC22A2D4 /* IssueDetailView.swift in Sources */,
+				52E83F1142B7A176D4E4AC75 /* IssueListView.swift in Sources */,
+				A3DC89BE437FAF333A3B1103 /* IssueViewModel.swift in Sources */,
+				17496DAEFDAFACE616DE3F46 /* KeychainHelper.swift in Sources */,
+				5FBF6E521522C5377A9A4323 /* LabelBadgeView.swift in Sources */,
+				0F130A2B3D6E67EF993AD079 /* LoginView.swift in Sources */,
+				2B5BD143274BA80624996DE0 /* MainTabView.swift in Sources */,
+				0F81B6D1A58CFEC16C36BE63 /* MarkdownTextView.swift in Sources */,
+				D41F67ACEDA31FF34263598A /* NotificationsView.swift in Sources */,
+				8ECE3058AE3F05581F56B8CF /* NotificationsViewModel.swift in Sources */,
+				108A77DD2DC67EA5DE4EC784 /* ProfileView.swift in Sources */,
+				742A17D5641BF50C6313861F /* PullRequestDetailView.swift in Sources */,
+				92303953D8F7EF5A7D842DF5 /* PullRequestListView.swift in Sources */,
+				A42E6C07D9CC53034ACD2B12 /* ReadmeView.swift in Sources */,
+				D5CCEF8A609BBB3136AD515F /* ReleasesView.swift in Sources */,
+				A08D10A07BD08B8800A5EAD4 /* RepoRowView.swift in Sources */,
+				396AA769792F05A2693B95EC /* RepositoryDetailView.swift in Sources */,
+				6EB238194E45C4FAD0A1A46E /* RepositoryListView.swift in Sources */,
+				AC4E9EA0085B3EF80A4B26FA /* RepositoryViewModel.swift in Sources */,
+				91227EF12068E051BA193380 /* ServerURLView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47C0A2EDDE31552FBD196CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		61241D34CAD76C1549B80FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SL27H6FWLS;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = GiteaClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giteaclient.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFAA40882CE2EB921F47B3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E363D51CD3D68F272692CF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SL27H6FWLS;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = GiteaClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giteaclient.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0876F895177E9A4576F342DC /* Build configuration list for PBXProject "GiteaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAA40882CE2EB921F47B3DB /* Debug */,
+				47C0A2EDDE31552FBD196CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B5715BD623917916162D9F26 /* Build configuration list for PBXNativeTarget "GiteaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E363D51CD3D68F272692CF2B /* Debug */,
+				61241D34CAD76C1549B80FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC8062C326422DEE42A9F2D /* Project object */;
+}

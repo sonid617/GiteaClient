@@ -1,0 +1,29 @@
+name: GiteaClient
+options:
+  bundleIdPrefix: com.giteaclient
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+
+targets:
+  GiteaClient:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: GiteaClient
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.giteaclient.app
+        SWIFT_VERSION: 5.9
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+        INFOPLIST_FILE: GiteaClient/Info.plist
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        ENABLE_ON_DEMAND_RESOURCES: NO
+        ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT: YES
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
