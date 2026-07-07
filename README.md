@@ -8,7 +8,12 @@ Built with SwiftUI, targeting iOS 16+. No third-party dependencies.
 
 ## Screenshots
 
-> _Coming soon_
+<p float="left">
+  <img src="Screenshots/login.png" width="22%" />
+  <img src="Screenshots/explore.png" width="22%" />
+  <img src="Screenshots/repos.png" width="22%" />
+  <img src="Screenshots/profile.png" width="22%" />
+</p>
 
 ---
 
